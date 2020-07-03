@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-07-03T05:04:26Z" name="Default suite" finished-at="2020-07-03T05:04:41Z" duration-ms="14288">
+    <groups>
+    </groups>
+    <test started-at="2020-07-03T05:04:26Z" name="Default test" finished-at="2020-07-03T05:04:41Z" duration-ms="14288">
+      <class name="Selenium.validateTitleTest">
+        <test-method signature="basePageNavigation()[pri:0, instance:Selenium.validateTitleTest@64a40280]" started-at="2020-07-03T06:04:34Z" name="basePageNavigation" finished-at="2020-07-03T06:04:34Z" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+      </class> <!-- Selenium.validateTitleTest -->
+      <class name="Selenium.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Selenium.HomePageTest@76f4b65]" started-at="2020-07-03T06:04:26Z" name="setUp" finished-at="2020-07-03T06:04:29Z" duration-ms="2991" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Selenium.validateTitleTest@64a40280]" started-at="2020-07-03T06:04:29Z" name="setUp" finished-at="2020-07-03T06:04:34Z" duration-ms="5191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:Selenium.HomePageTest@76f4b65]" started-at="2020-07-03T06:04:34Z" name="basePageNavigation" data-provider="getData" finished-at="2020-07-03T06:04:38Z" duration-ms="3788" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test@test.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:Selenium.HomePageTest@76f4b65]" started-at="2020-07-03T06:04:38Z" name="basePageNavigation" data-provider="getData" finished-at="2020-07-03T06:04:40Z" duration-ms="1867" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qa@test.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.HomePageTest@76f4b65]" started-at="2020-07-03T06:04:40Z" name="tearDown" finished-at="2020-07-03T06:04:40Z" duration-ms="163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.validateTitleTest@64a40280]" started-at="2020-07-03T06:04:40Z" name="tearDown" finished-at="2020-07-03T06:04:41Z" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Selenium.HomePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
